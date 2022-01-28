@@ -1,15 +1,15 @@
 #ifndef FUNCIONARIO_HPP
 #define FUNCIONARIO_HPP
 
+#include "Registro.hpp"
 #include <iostream>
 #include <iomanip>
 
-class Funcionario {
+class Funcionario : public Resgistro {
+
     public:
+
         double salarioBase; // valor m�nimo recebido pelo funcion�rio
-        std::string idade;
-        std::string nome;
-        int rgFuncionario;
 
         void print() {
             std::cout << "[Funcionario]" << std::endl

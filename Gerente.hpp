@@ -1,18 +1,15 @@
 #ifndef GERENTE_HPP
 #define GERENTE_HPP
 
+#include "Registro.hpp"
 #include <iostream>
 #include <iomanip>
 
-
 double valorBonificacao = 15.0;
 
-class Gerente {
+class Gerente : public Resgistro {
     public:
-        double salarioBase; // valor mínimo recebido pelo funcionário
-        std::string idade;
-        std::string nome;
-        int rgFuncionario;
+        double salarioBase; // valor mï¿½nimo recebido pelo funcionï¿½rio
         double bonificacao;
 
 
