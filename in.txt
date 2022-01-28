@@ -1,0 +1,7 @@
+Venda v01;
+v01.cliente= "J. Jonah Jameson";
+v01.esp = e01;
+v01.descricao = "Fotos do Homem Aranha";
+v01.VALOR = 100;
+comissao01 += e01.comissao(v01.VALOR);
+numAtendimentos01+=1;
