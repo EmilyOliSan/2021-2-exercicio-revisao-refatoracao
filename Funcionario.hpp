@@ -5,12 +5,15 @@
 #include <iomanip>
 
 class Resgistro {
-
     public:
+
         std::string idade;
-        std::string nome;
         int rgFuncionario;
+         
+    private:
+        
         double salarioBase;
+        std::string nome;
 };
 
 class Funcionario : public Resgistro {

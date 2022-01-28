@@ -12,7 +12,7 @@ class Especialista : public Funcionario {
 
     public:
        std::string especialidade;
-
+    private:
         double comissao(double valorVenda) {
             double c = valorVenda*perc;
             return c;
