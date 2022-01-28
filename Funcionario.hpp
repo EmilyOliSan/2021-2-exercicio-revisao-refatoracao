@@ -10,18 +10,16 @@ class Resgistro {
         std::string idade;
         std::string nome;
         int rgFuncionario;
+        double salarioBase;
 };
 
 class Funcionario : public Resgistro {
 
     public:
 
-        double salarioBase; // valor m�nimo recebido pelo funcion�rio
-
         void print() {
-            std::cout << "[Funcionario]" << std::endl
-            << "  Idade: " << idade << std::endl
-            << "  RGFunc: " << rgFuncionario << std::endl;
+            std::cout << "[Funcionario]" << std::endl << "  Idade: " << idade 
+            << std::endl << "  RGFunc: " << rgFuncionario << std::endl;
         }
 
         void print_oi(){
