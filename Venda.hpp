@@ -6,15 +6,13 @@
 #include "Cliente.hpp"
 #include "Especialista.hpp"
 
-using namespace std;
-
 class Venda{
 
     private:
-    double VALOR;
-    string descricao;
-    Especialista esp;
-    string cliente;
+        double VALOR;
+        std::string descricao;
+        Especialista esp;
+        std::string cliente;
 
 
     void print() {
@@ -24,7 +22,6 @@ class Venda{
 
         std::cout << " Cliente: ";
         cout << cliente;
-
         
     }
 };
