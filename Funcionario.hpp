@@ -8,10 +8,7 @@ class Resgistro {
     public:
 
         std::string idade;
-        int rgFuncionario;
-         
-    private:
-        
+        int rgFuncionario;        
         double salarioBase;
         std::string nome;
 };

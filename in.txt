@@ -1,7 +1,8 @@
-Venda v01;
-v01.cliente= "J. Jonah Jameson";
-v01.esp = e01;
-v01.descricao = "Fotos do Homem Aranha";
-v01.VALOR = 100;
-comissao01 += e01.comissao(v01.VALOR);
-numAtendimentos01+=1;
+Especialista e01;
+int numAtendimentos01 = 0;
+double comissao01 = 0;
+e01.nome = "Peter Parker";
+e01.idade = "46";
+e01.rgFuncionario = 27061975;
+e01.salarioBase = 3000;
+e01.especialidade = "Fotografia";
