@@ -13,10 +13,10 @@ class Especialista : public Funcionario {
     public:
 
     public:
-        string especialidade;
+       std::string especialidade;
 
-    double comissao(double ValorVenda) {
-        double c = ValorVenda*perc;
+    double comissao(double valorVenda) {
+        double c = valorVenda*perc;
                   return c;
     }
 
@@ -29,7 +29,7 @@ class Especialista : public Funcionario {
 
 
         std::cout << "  Nome: " << nome << std::endl
-        << "  SalarioBase: R$ " << fixed << setprecision(2) << SalarioBase << std::endl;
+        << "  SalarioBase: R$ " << fixed << setprecision(2) << salarioBase << std::endl;
 
     }
 };
