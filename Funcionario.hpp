@@ -1,9 +1,16 @@
 #ifndef FUNCIONARIO_HPP
 #define FUNCIONARIO_HPP
 
-#include "Registro.hpp"
 #include <iostream>
 #include <iomanip>
+
+class Resgistro {
+
+    public:
+        std::string idade;
+        std::string nome;
+        int rgFuncionario;
+};
 
 class Funcionario : public Resgistro {
 

@@ -1,7 +1,7 @@
 #ifndef GERENTE_HPP
 #define GERENTE_HPP
 
-#include "Registro.hpp"
+#include "Funcionario.hpp"
 #include <iostream>
 #include <iomanip>
 
