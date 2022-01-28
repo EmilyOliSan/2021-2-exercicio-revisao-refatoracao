@@ -9,7 +9,7 @@ double valorBonificacao = 15.0;
 
 class Gerente : public Resgistro {
 
-    public:
+    private:
         double bonificacao;
 
         void print() {
