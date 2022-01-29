@@ -15,7 +15,7 @@ class Resgistro {
 
 class Funcionario : public Resgistro {
 
-    private:
+    public:
 
         void print() {
             std::cout << "[Funcionario]" << std::endl << "  Idade: " << idade 

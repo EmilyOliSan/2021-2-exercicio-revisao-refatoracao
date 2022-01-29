@@ -8,9 +8,9 @@
 
 class Venda{
 
-    private:
-        double VALOR;
+    public:
         std::string descricao;
+        double VALOR;
         Especialista esp;
         std::string cliente;
 
@@ -18,10 +18,10 @@ class Venda{
     void print() {
 
         std::cout << "Especialista: ";
-        cout << esp.nome;
+        std::cout << esp.nome;
 
         std::cout << " Cliente: ";
-        cout << cliente;
+        std::cout << cliente;
         
     }
 };

@@ -8,4 +8,5 @@ void Cliente::print(){
 	<< "  Endereco: " << endereco << std:: endl << "  CEP: " << cep << std::endl;
 
 }
+// g++ main.cpp Cliente.cpp -o main
 
