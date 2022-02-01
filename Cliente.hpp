@@ -21,7 +21,6 @@ class Cliente{
 	private:
 		
 		std::string AlturaDosPais;
-		
 };
 
 #endif

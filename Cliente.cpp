@@ -24,8 +24,4 @@ void Cliente::print_cliente(){
 
 	std::cout << "[Cliente]" << std:: endl << "  Nome: " << nome << std:: endl 
 	<< "  Endereco: " << endereco << std:: endl << "  CEP: " << cep << std::endl;
-
 }
-/*
-g++ main.cpp Cliente.cpp Especialista.cpp Funcionario.cpp Gerente.cpp Venda.cpp -o main
-*/
