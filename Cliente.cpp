@@ -20,7 +20,6 @@ void Cliente::setCep(std::string cep){
 std::string Cliente::getCep(){
 	return this->cep;
 }
-
 void Cliente::print_cliente(){
 
 	std::cout << "[Cliente]" << std:: endl << "  Nome: " << nome << std:: endl 

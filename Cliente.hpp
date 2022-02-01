@@ -15,10 +15,8 @@ class Cliente{
         std::string getNome();
         void setEndereco(std::string);
         std::string getEndereco();
-        void setCidade(std::string);
 		void setCep(std::string);
         std::string getCep();
-		
 
 	private:
 		
