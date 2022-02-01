@@ -17,14 +17,8 @@ class Funcionario : public Resgistro {
 
     public:
 
-        void print() {
-            std::cout << "[Funcionario]" << std::endl << "  Idade: " << idade 
-            << std::endl << "  RGFunc: " << rgFuncionario << std::endl;
-        }
-
-        void print_oi(){
-            std::cout << "Tchau" << std::endl;
-        }
+        void print();
+        void print_oi();
 };
 
 #endif
