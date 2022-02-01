@@ -10,6 +10,7 @@ double valorBonificacao = 15.0;
 class Gerente : public Resgistro {
 
     public:
+    
         double bonificacao;
 
         void print() {
@@ -20,7 +21,7 @@ class Gerente : public Resgistro {
         }
 
         double calculaBonificacaoGerente(int numTotalVendas){
-            double x;
+
             return numTotalVendas*valorBonificacao;
         }
 };
