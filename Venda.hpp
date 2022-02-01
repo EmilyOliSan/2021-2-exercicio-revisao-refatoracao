@@ -10,10 +10,9 @@ class Venda{
 
     public:
         std::string descricao;
-        double VALOR;
+        double valor;
         Especialista esp;
         std::string cliente;
-
 
     void print() {
 
