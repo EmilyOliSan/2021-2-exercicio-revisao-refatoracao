@@ -19,4 +19,3 @@ class Gerente : public Resgistro {
 };
 
 #endif
-

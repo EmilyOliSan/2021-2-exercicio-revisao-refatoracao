@@ -26,5 +26,3 @@ void Especialista::print() {
     << "  SalarioBase: R$ " << std::fixed << std::setprecision(2) << salarioBase << std::endl;
 
 }
-
-

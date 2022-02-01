@@ -11,6 +11,3 @@ void Funcionario::print() {
 void Funcionario::print_oi(){
     std::cout << "Tchau" << std::endl;
 }
-
-
-

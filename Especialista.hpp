@@ -4,7 +4,6 @@
 #include "Funcionario.hpp"
 #include "Cliente.hpp"
 
-
 class Especialista : public Funcionario {
 
     public:

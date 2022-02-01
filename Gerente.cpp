@@ -24,5 +24,3 @@ double Gerente::calculaBonificacaoGerente(int numTotalVendas){
 
     return numTotalVendas*valorBonificacao;
 }
-
-

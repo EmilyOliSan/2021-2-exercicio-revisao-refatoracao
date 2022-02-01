@@ -190,10 +190,6 @@ int main()
     cout << " Descricao: " << v08.descricao << endl;
 
 
-
-
-
-
     cout <<" \n \n           Relatorio dos Funcionarios \n" << endl;
     e01.print();
     cout << "Num Atendimentos: " << numAtendimentos01 << endl;
