@@ -4,15 +4,15 @@
 #include "Funcionario.hpp"
 #include "Cliente.hpp"
 
-double perc = 0.1;
-double percWanda = 0.1;
 
 class Especialista : public Funcionario {
 
     public:
-
+    
+        double perc = 0.1;
+        double percWanda = 0.1;
         std::string especialidade;
-        double comissao(double valorVenda);
+        double comissao(double);
         void print();
 };
 

@@ -1,8 +1,8 @@
 #include <iostream>
-
+#include <iomanip>
 #include "Cliente.hpp"
 #include "Funcionario.hpp"
-#include "Especialista.cpp"
+#include "Especialista.hpp"
 #include "Venda.hpp"
 #include "Gerente.hpp"
 
@@ -14,31 +14,31 @@ int main()
     cliente1.nome = "J. Jonah Jameson";
     cliente1.endereco ="Nova York";
 	cliente1.cep = "35690000";
-    cliente1.print();
+    cliente1.print_cliente();
 
     Cliente cliente2;
     cliente2.nome = "Norman Osborn";
     cliente2.endereco ="Hartlford";
 	cliente2.cep = "22061955";
-    cliente2.print();
+    cliente2.print_cliente();
 
     Cliente cliente3;
     cliente3.nome = "Otto Octavius";
     cliente3.endereco ="Schenectady";
 	cliente3.cep = "24051953";
-    cliente3.print();
+    cliente3.print_cliente();
 
     Cliente cliente4;
     cliente4.nome = "Bruce Benner";
     cliente4.endereco ="Dayton";
 	cliente4.cep = "22111967";
-    cliente4.print();
+    cliente4.print_cliente();
 
     Cliente cliente5;
     cliente5.nome = "Steve Rogers";
     cliente5.endereco ="Lower East Side";
 	cliente5.cep = "13061981";
-    cliente5.print();
+    cliente5.print_cliente();
 
 
 
