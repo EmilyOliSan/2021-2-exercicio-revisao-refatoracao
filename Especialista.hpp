@@ -8,9 +8,11 @@
 class Especialista : public Funcionario {
 
     public:
-    
-        double perc = 0.1;
-        double percWanda = 0.1;
+        Especialista();
+        double perc;
+        double percWanda;
+        void setEspecialidade(std::string Especialista);
+        std::string getEspecialidade();
         std::string especialidade;
         double comissao(double);
         void print();

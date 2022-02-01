@@ -5,6 +5,7 @@
 #include <iomanip>
 
 class Resgistro {
+    
     public:
 
         std::string idade;

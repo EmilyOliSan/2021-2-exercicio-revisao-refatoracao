@@ -8,8 +8,11 @@
 class Gerente : public Resgistro {
 
     public:
-    
-        double valorBonificacao = 15.0;
+
+        Gerente();
+        double valorBonificacao;
+        void setBonificacao(double);
+        double getBonificacao();
         double bonificacao;
         void print() ;
         double calculaBonificacaoGerente(int);
