@@ -10,9 +10,11 @@ Gerente::Gerente(){
 void Gerente::setBonificacao(double bonificacao){
     this-> bonificacao = bonificacao;
 }
+
 double Gerente::getBonificacao(){
     return this-> bonificacao;
 }
+
 void Gerente::print() {
     std::cout << "[Funcionario]" << std::endl<< "[Gerente]" << std::endl
     << "  Nome: " << nome << std::endl << "  Idade: " << idade << std::endl

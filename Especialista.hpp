@@ -5,7 +5,7 @@
 #include "Cliente.hpp"
 
 class Especialista : public Funcionario {
-
+    
     public:
         Especialista();
         double perc;

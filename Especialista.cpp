@@ -16,7 +16,6 @@ double Especialista::comissao(double valorVenda) {
     double c = valorVenda*perc;
     return c;
 }
-
 void Especialista::print() {
 
     std::cout << "[Especialista]" << std::endl;

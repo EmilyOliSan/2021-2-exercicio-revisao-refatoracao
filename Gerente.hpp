@@ -16,6 +16,7 @@ class Gerente : public Resgistro {
         double bonificacao;
         void print() ;
         double calculaBonificacaoGerente(int);
+        
 };
 
 #endif

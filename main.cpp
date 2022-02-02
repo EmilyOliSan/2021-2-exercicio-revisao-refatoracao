@@ -40,9 +40,6 @@ int main()
 	cliente5.cep = "13061981";
     cliente5.print_cliente();
 
-
-
-
     Especialista e01;
     int numAtendimentos01 = 0;
     double comissao01 = 0;
@@ -51,8 +48,6 @@ int main()
     e01.rgFuncionario = 27061975;
     e01.salarioBase = 3000;
     e01.especialidade = "Fotografia";
-
-
 
     Especialista e02;
     int numAtendimentos02 = 0;
@@ -63,7 +58,6 @@ int main()
     e02.salarioBase = 1000;
     e02.especialidade = "Consertos de equipamentos eletronicos";
 
-
     Especialista e03;
     int numAtendimentos03 = 0;
     double comissao03 = 0;
@@ -73,14 +67,12 @@ int main()
     e03.salarioBase = 5000;
     e03.especialidade = "Engenharia e Designeeeeer";
 
-
     Gerente g01;
     double bonificacao01 = 0;
     g01.nome = "Nick Fury";
     g01.idade = "72";
     g01.rgFuncionario = 21121948;
     g01.salarioBase = 10000;
-
 
     Venda v01;
     v01.cliente= "J. Jonah Jameson";
@@ -90,7 +82,6 @@ int main()
     comissao01 += e01.comissao(v01.valor);
     numAtendimentos01+=1;
 
-
     Venda v02;
     v02.cliente= "Bruce Benner";
     v02.esp = e02;
@@ -98,7 +89,6 @@ int main()
     v02.valor = 100;
     comissao02 += e02.comissao(v02.valor);
     numAtendimentos02+=1;
-
 
     Venda v03;
     v03.cliente= "Norman Osborn";
@@ -108,7 +98,6 @@ int main()
     comissao01 += e01.comissao(v03.valor);
     numAtendimentos01+=1;
 
-
     Venda v04;
     v04.cliente= "J. Jonah Jameson";
     v04.esp = e02;
@@ -116,7 +105,6 @@ int main()
     v04.valor = 10;
     comissao02 += e02.comissao(v04.valor);
     numAtendimentos02+=1;
-
 
     Venda v05;
     v05.cliente= "Bruce Benner";
@@ -126,7 +114,6 @@ int main()
     comissao03 += e03.comissao(v05.valor);
     numAtendimentos03+=1;
 
-
     Venda v06;
     v06.cliente= "Steve Rogers";
     v06.esp = e03;
@@ -135,11 +122,8 @@ int main()
     comissao03 += e03.comissao(v06.valor);
     numAtendimentos03+=1;
 
-
     v06.descricao = "Decoracao de Apartamento no Brooklyn";
     v06.valor = 3000;
-
-
 
     Venda v07;
     v07.cliente= "J. Jonah Jameson";
@@ -149,7 +133,6 @@ int main()
     comissao03 += e03.comissao(v07.valor);
     numAtendimentos03+=1;
 
-
     Venda v08;
     v08.cliente= "Otto Octavius";
     v08.esp = e02;
@@ -157,8 +140,6 @@ int main()
     v08.valor = 80;
     comissao02 += e02.comissao(v08.valor);
     numAtendimentos02+=1;
-
-
 
     cout <<" \n \n           Relatorio das Vendas \n" << endl;
 

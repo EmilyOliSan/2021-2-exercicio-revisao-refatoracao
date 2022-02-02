@@ -21,5 +21,4 @@ class Funcionario : public Resgistro {
         void print();
         void print_oi();
 };
-
 #endif
